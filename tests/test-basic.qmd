@@ -1,0 +1,21 @@
+---
+title: "basic example"
+subtitle: "Suppresses pdf, renders html and docx"
+format-links: true
+suppress-formats:
+  - pdf
+format: 
+  html: default
+  pdf: default
+  docx: default
+---
+
+
+
+## Heading
+
+This filter suppresses rendering of the main body of a document when the YAML-key contains the name of the currently executed format.
+
+Note: Format Aliases can be used, as documented in the [quarto-lua-api-documentation](https://quarto.org/docs/extensions/lua-api.html#format-detection)
+
+
