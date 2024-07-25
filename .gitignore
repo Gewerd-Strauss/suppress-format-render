@@ -1,3 +1,8 @@
 *.html
 *.pdf
+*.docx
 *_files/
+/tests/*
+!tests/*.qmd
+/dev/*
+/.quarto/
