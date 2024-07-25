@@ -1,0 +1,2 @@
+filters:
+  - _extensions/suppress-format-render/suppress-format-render.lua
